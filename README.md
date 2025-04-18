@@ -38,17 +38,10 @@ Rows with merged strings are split and converted.
 
 **Model Training**
 - Machine Learning models explored (Lineaer Regression, Ridge Regression, Lasso regression, RANSAC)
-- Model evaluation using metrics like RMSE and R²
-
-Grid search or parameter tuning optional (not yet included - a next step to improve the model)
+- Grid search and parameter tuning for RANSAC model
+- Visualize feature importance 
 
 **Prediction & Output**
 Predictions are made on cleaned df_test and df_aim datasets using the trained model.
 
 Final predicted ratings are displayed or exported.
-
-**Future Improvements**
-- Hyperparameter tuning
-- Visualize feature importance
-- Add more robust error handling and preprocessing validation
-- Support exporting model and predictions
